@@ -1,36 +1,28 @@
 import type { Metadata } from "next";
-import { Inter, Anton } from "next/font/google";
+import { Anton, Inter } from "next/font/google";
 import "./globals.css";
 
-// Configuração da fonte Inter para textos comuns
-const inter = Inter({ 
+const anton = Anton({
+  weight: "400",
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-anton",
 });
 
-// Configuração da fonte Anton para o logo e o fundo "magazine"
-const anton = Anton({ 
-  weight: "400", 
-  subsets: ["latin"], 
-  variable: "--font-anton" 
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SPIK - Login",
-  description: "Plataforma de alta performance",
+  description: "Plataforma de habit stacking",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="pt-br" suppressHydrationWarning>
-      <body 
-        className={`${inter.variable} ${anton.variable} antialiased`} 
-        suppressHydrationWarning
-      >
+    <html lang="pt-br">
+      <body className={`${inter.className} ${anton.variable} antialiased`}>
         {children}
       </body>
     </html>

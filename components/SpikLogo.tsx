@@ -11,11 +11,11 @@ export default function SpikLogo({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' })
 
   return (
     <div className="flex items-center gap-2 select-none">
-      <Zap size={currentSize.icon} className="text-yellow-400 fill-yellow-400 rotate-[-15deg]" />
+      <Zap size={currentSize.icon} className="text-yellow-400 fill-yellow-400 rotate-[0deg]" />
       <h1 className={`${currentSize.text} font-black italic text-black tracking-tighter`}>
         SPIK
       </h1>
-      <Zap size={currentSize.icon} className="text-yellow-400 fill-yellow-400 rotate-[15deg]" />
+      <Zap size={currentSize.icon} className="text-yellow-400 fill-yellow-400 rotate-[0deg]" />
     </div>
   );
 }

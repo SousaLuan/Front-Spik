@@ -3,7 +3,7 @@
 export default function BackgroundWords() {
   const words = [
     "RESISTÊNCIA", "FOCO", "DETERMINAÇÃO", "CORAGEM", 
-    "PERMITA-SE", "VONTADE", "CONCENTRE-SE", "SPIK", "PERSISTÊNCIA"
+    "PERMITA-SE", "VONTADE", "CONCENTRE-SE", "SPIK"
   ];
 
   const ScrollingRow = ({ direction = "left" }: { direction?: "left" | "right" }) => (

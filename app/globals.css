@@ -1,12 +1,10 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --spik-yellow: #FFD84D;
+@theme {
+  --color-spik-yellow: #FFD84D;
+  --font-anton: var(--font-anton);
 }
 
-/* Definição das Keyframes em CSS Puro */
 @keyframes scrollLeft {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
@@ -17,25 +15,21 @@
   to { transform: translateX(0); }
 }
 
-/* Classes de Utilidade Customizadas */
 @layer utilities {
   .animate-spik-left {
-    animation: scrollLeft 70s linear infinite !important;
+    animation: scrollLeft 30s linear infinite !important;
   }
-
   .animate-spik-right {
-    animation: scrollRight 60s linear infinite !important;
+    animation: scrollRight 30s linear infinite !important;
   }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  /* Removi a fonte Arial para que a Anton e a Inter que configuramos no layout prevaleçam */
-}
-
-/* Reset de scroll para o fundo magazine */
-html, body {
-  overflow-x: hidden; 
-  width: 100%;
 }
