@@ -1,7 +1,5 @@
 # spik-front
 
-# spik-front
-
 ### 1. Título e Descrição Curta
 **Front-Spik:** Repositório responsável pelo front-end da aplicação **SPIK**. O foco do projeto é entregar uma interface moderna e intuitiva para o sistema SPIK.
 
