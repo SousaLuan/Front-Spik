@@ -27,10 +27,11 @@ O uso dessas tecnologias garante um código escalável, tipado e com alta perfor
 
 Bash
 # Instalar dependências
-* ** npm install
+
+* npm install
 
 # Rodar em modo de desenvolvimento
-* ** npm run dev
+* npm run dev
 
 ### 5. Demonstração
 
