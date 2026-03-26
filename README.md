@@ -33,6 +33,8 @@ Bash
 
 ### 5. Demonstração
 
+- **Se baixar e rodar o projeto, verá que essas palavras tem vida** 
+
 <img width="1918" height="907" alt="Tela Login Spik" src="https://github.com/user-attachments/assets/ac907b5a-4355-4af5-86db-b254cc82cf38" />
 
 <img width="1917" height="911" alt="image" src="https://github.com/user-attachments/assets/04ef9806-9d17-4bdf-b941-a8b91f23bb64" />
