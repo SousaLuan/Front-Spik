@@ -3,6 +3,7 @@ import BackgroundWords from "../../components/BackgroundWords";
 import { User, Mail, Lock, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
+//mudar nome do arquivo para page.tsx
 export default function Register() {
   return (
     <main className="relative min-h-screen w-full flex items-center justify-center bg-[#FDFDFD] overflow-hidden">
